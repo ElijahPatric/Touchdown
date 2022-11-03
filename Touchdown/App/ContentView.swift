@@ -1,8 +1,8 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
 //  https://credo.academy
-//  iOS 16
+//
 
 import SwiftUI
 
@@ -47,7 +47,7 @@ struct ContentView: View {
                     }
                 } //: LOOP
               }) //: GRID
-              .padding(15)
+                .padding(15)
               
               TitleView(title: "Brands")
               
@@ -73,7 +73,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 12 Pro")
       .environmentObject(Shop())
   }
 }

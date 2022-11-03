@@ -1,7 +1,7 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI
@@ -22,7 +22,7 @@ struct FeaturedTabView: View {
 struct FeaturedTabView_Previews: PreviewProvider {
   static var previews: some View {
     FeaturedTabView()
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 12 Pro")
       .background(Color.gray)
   }
 }
